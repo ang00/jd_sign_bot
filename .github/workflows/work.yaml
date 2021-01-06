@@ -3,7 +3,7 @@ name: Github JD-sign bot
 on:
     workflow_dispatch:
     schedule:
-        - cron: '5 09 * * *'
+        - cron: '35 1 * * *'
 jobs:
     build:
         runs-on: ubuntu-latest
